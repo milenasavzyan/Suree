@@ -1,0 +1,165 @@
+.container {
+    width: 1312px;
+}
+body {
+    font-family: 'Helvetica Neue', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #001515;
+}
+
+span {
+    color: #0029FF;
+}
+
+header ul {
+    font-size: 20px;
+}
+
+.custom-div {
+    width: 656px;
+    height: 300px;
+    margin-top: 90px;
+}
+
+.custom-h2 {
+    font-size: 78px;
+}
+
+.custom-p {
+    font-size: 20px;
+}
+
+button {
+    background: #0029FF;
+    color: aliceblue;
+    width: 298px;
+    height: 70px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+.first .col-12{
+    width: 635px;
+}
+.first img {
+    width: 626px;
+    height: 752px;
+}
+
+.first h4 {
+    font-size: 40px;
+    color: #001515;
+}
+
+/*.star-13 {*/
+/*    width: 72px;*/
+/*    height: 72px;*/
+/*}*/
+.first .logo img{
+    width: 126px;
+    height: 126px;
+}
+.second .background{
+    width: 1312px;
+    height: 592px;
+    background: #F0F5FB;
+    border-radius: 56px;
+}
+.second .background h2{
+    font-size: 80px;
+    color: #001515;
+    margin-top: 96px;
+    margin-bottom: 56px;
+}
+.step{
+    width: 360px;
+    height: 286px;
+    border: 1px #001515;
+    border-style: solid;
+    border-radius: 56px;
+    gap: 16px;
+    background: #FFF;
+}
+.step-3{
+    background: #0029FF;
+    color: #FFFFFF;
+}
+.step button{
+    background: #FFF;
+    color: #0029FF;
+    border-style: none;
+}
+.third .background h2{
+    font-size: 80px;
+    color: #001515;
+}
+.product{
+    width: 360px;
+    height: 542px;
+}
+.product h4{
+    font-size: 34px;
+}
+.product p{
+    font-size: 20px;
+}
+.fourth .background .top p{
+    font-size: 32px;
+    color: #001515;
+    opacity: 45%;
+
+}
+.fourth .background h2{
+    font-size: 80px;
+    color: #001515;
+}
+.details{
+    height: 304px;
+}
+.detail{
+    width: 217px;
+    height: 120px;
+    border: 1px #001515;
+    border-style: solid;
+    border-radius: 32px;
+    background: #FFF;
+}
+footer .background{
+    width: 1312px;
+    height: 438px;
+    background: #9AE3E3;
+    border-radius: 56px;
+}
+footer{
+    margin-top: 120px;
+}
+footer .col-12{
+    width: 578px;
+    height: 128px;
+}
+footer .col-12 div{
+    width: 1200px;
+}
+footer h2{
+    font-size: 64px;
+}
+footer p{
+    font-size: 20px;
+}
+footer input{
+    width: 534px;
+    height: 86px;
+    border: 1px;
+    border-radius: 24px;
+}
+h6{
+    font-size: 20px;
+    color: #001515;
+    opacity: 45%;
+}
+.icons{
+    width: 145px;
+    height: 24px;
+}
