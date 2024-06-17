@@ -19,11 +19,12 @@ header ul {
 }
 
 .custom-div {
-    width: 656px;
+    width: 670px;
     height: 300px;
-    margin-top: 90px;
 }
-
+h2{
+    font-weight: bold;
+}
 .custom-h2 {
     font-size: 78px;
 }
@@ -52,11 +53,6 @@ button {
     font-size: 40px;
     color: #001515;
 }
-
-/*.star-13 {*/
-/*    width: 72px;*/
-/*    height: 72px;*/
-/*}*/
 .first .logo img{
     width: 126px;
     height: 126px;
@@ -70,8 +66,6 @@ button {
 .second .background h2{
     font-size: 80px;
     color: #001515;
-    margin-top: 96px;
-    margin-bottom: 56px;
 }
 .step{
     width: 360px;
@@ -132,11 +126,8 @@ footer .background{
     background: #9AE3E3;
     border-radius: 56px;
 }
-footer{
-    margin-top: 120px;
-}
 footer .col-12{
-    width: 578px;
+    width: 605px;
     height: 128px;
 }
 footer .col-12 div{
@@ -162,4 +153,14 @@ h6{
 .icons{
     width: 145px;
     height: 24px;
+}
+.carousel-indicators{
+    margin: auto;
+}
+.carousel-indicators .item{
+    background: #000000;
+}
+
+.indicator .active {
+    background-color: black;
 }
