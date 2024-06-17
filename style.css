@@ -58,8 +58,6 @@ button {
     height: 126px;
 }
 .second .background{
-    width: 1312px;
-    height: 592px;
     background: #F0F5FB;
     border-radius: 56px;
 }
@@ -67,20 +65,24 @@ button {
     font-size: 80px;
     color: #001515;
 }
-.step{
-    width: 360px;
+.steps div{
     height: 286px;
     border: 1px #001515;
     border-style: solid;
     border-radius: 56px;
     gap: 16px;
-    background: #FFF;
+}
+.steps p{
+    width: 350px;
 }
 .step-3{
+    height: 286px;
+    border-radius: 56px;
+    gap: 16px;
     background: #0029FF;
     color: #FFFFFF;
 }
-.step button{
+.steps button{
     background: #FFF;
     color: #0029FF;
     border-style: none;
