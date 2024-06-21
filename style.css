@@ -1,6 +1,3 @@
-.container {
-    width: 1312px;
-}
 body {
     font-family: 'Helvetica Neue', cursive;
 }
@@ -18,15 +15,12 @@ header ul {
     font-size: 20px;
 }
 
-.custom-div {
-    width: 670px;
-    height: 300px;
-}
-h2{
+h2 {
     font-weight: bold;
 }
+
 .custom-h2 {
-    font-size: 78px;
+    font-size: 70px;
 }
 
 .custom-p {
@@ -41,85 +35,47 @@ button {
     border-radius: 16px;
     font-size: 20px;
 }
-.first .col-12{
-    width: 635px;
+
+.about-text {
+    padding: 0 15px;
 }
-.first img {
-    width: 626px;
-    height: 752px;
+
+.additional-info {
+    padding: 0 15px;
+}
+
+.first .col-12 {
+    width: 635px;
 }
 
 .first h4 {
     font-size: 40px;
     color: #001515;
 }
-.first .logo img{
+
+.first .logo img {
     width: 126px;
     height: 126px;
 }
-.second .background{
+
+.steps .container {
     background: #F0F5FB;
     border-radius: 56px;
 }
-.second .background h2{
-    font-size: 80px;
-    color: #001515;
-}
-.steps div{
-    height: 286px;
-    border: 1px #001515;
-    border-style: solid;
-    border-radius: 56px;
-    gap: 16px;
-}
-.steps p{
-    width: 350px;
-}
-.step-3{
-    height: 286px;
-    border-radius: 56px;
-    gap: 16px;
-    background: #0029FF;
-    color: #FFFFFF;
-}
-.steps button{
-    background: #FFF;
-    color: #0029FF;
-    border-style: none;
-}
-.third .background h2{
-    font-size: 80px;
-    color: #001515;
-}
-.product{
-    width: 360px;
-    height: 542px;
-}
-.product h4{
-    font-size: 34px;
-}
-.product p{
-    font-size: 20px;
-}
-.fourth .background .top p{
-    font-size: 32px;
-    color: #001515;
-    opacity: 45%;
 
+.custom-card {
+    border-radius: 56px;
+    border: 1px solid #ddd;
+    padding: 15px;
 }
-.fourth .background h2{
-    font-size: 80px;
-    color: #001515;
-}
-.details{
-    height: 304px;
-}
-.detail{
+
+.detail {
     height: 120px;
     border: 1px #001515;
     border-style: solid;
     border-radius: 32px;
 }
+
 .carousel-item .detail {
     display: flex;
     justify-content: center;
@@ -132,57 +88,174 @@ button {
     max-height: 100%;
 }
 
-footer .background{
-    width: 1312px;
+footer .background {
     height: 438px;
     background: #9AE3E3;
     border-radius: 56px;
 }
-footer .col-12{
-    width: 605px;
-    height: 128px;
-}
-footer .col-12 div{
-    width: 1200px;
-}
-footer h2{
+
+footer h2 {
     font-size: 64px;
 }
-footer p{
+
+footer p {
     font-size: 20px;
 }
-footer input{
+
+.row input {
     width: 534px;
     height: 86px;
     border: 1px;
     border-radius: 24px;
 }
-h6{
+
+h6 {
     font-size: 20px;
     color: #001515;
     opacity: 45%;
 }
-.icons{
-    width: 145px;
+
+.icons {
     height: 24px;
 }
-.carousel-indicators{
+
+.carousel-indicators {
     margin: auto;
 }
-.carousel-indicators .item{
+
+.carousel-indicators .item {
     background: #000000;
 }
 
 .indicator .active {
     background-color: black;
 }
-.points{
+
+.points {
     width: 1312px;
     height: 16px;
 }
-.point{
+
+.point {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     border: solid 1px black;
+}
+
+@media (max-width: 1199px) {
+    .about-text {
+        text-align: center;
+    }
+
+    .additional-info {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .col-lg-6 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .footer .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section-header h2 {
+        font-size: 20px;
+    }
+
+    .section-header p {
+        font-size: 14px;
+    }
+
+    .icons {
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-text {
+        padding-top: 20px;
+    }
+
+    .additional-info {
+        margin-top: 20px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer input {
+        width: 90%;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+    .section-header h2 {
+        font-size: 18px;
+    }
+
+    .section-header p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575px) {
+    .about-text {
+        padding: 0;
+    }
+
+    .custom-button {
+        width: 50%;
+    }
+
+    .additional-info {
+        padding: 0;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .footer input {
+        width: 90%;
+    }
+
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .icons a {
+        margin-right: 10px;
+    }
+
+    .section-header h2 {
+        font-size: 16px;
+    }
+
+    .section-header p {
+        font-size: 10px;
+    }
+
+    .icons {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .icons li {
+        margin-right: 8px;
+    }
+
+
 }
